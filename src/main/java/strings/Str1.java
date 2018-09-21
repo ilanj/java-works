@@ -14,8 +14,8 @@ public class Str1 {
 
         //charAt()
         char ch;
-        ch=name.charAt(2);
-        System.out.println("char at 2"+ch);
+        ch=name.charAt(3);
+        System.out.println("char at 3"+ch);
 
         //length
         int length;
@@ -42,23 +42,25 @@ public class Str1 {
 
         //replace
         name=name.replace("i","j");
-        System.out.println("after trim  "+name);
+        System.out.println("after replace  "+name);
 
         //split
         String[] splitArray;
         splitArray=name.split(" ");
 
-    /*    int len;
-        len=splitArray.length;
-        for(int i=0;i<len;i++)
-            System.out.println(splitArray[i]);*/
+//      int len;
+//        len=splitArray.length;
+//        for(int i=0;i<len;i++)
+//            System.out.println(splitArray[i]);
+
     for(String s1:splitArray)
         System.out.println(s1);
 
         //to char array
-        char[] charArray;
-        charArray=name.toCharArray();
-        for(char c:charArray)
+        char ca[];
+        ca=name.toCharArray();
+
+        for(char c:ca)
             System.out.println(c);
 
         //string comparison
@@ -70,6 +72,7 @@ public class Str1 {
 
         //string builder
         StringBuilder sb=new StringBuilder();
+
         for(String s1:splitArray)
         {
             sb.append(s1);
@@ -77,6 +80,7 @@ public class Str1 {
         }
         sb=sb.reverse();
         System.out.println("after reverse using string builder"+sb.toString());
+
         //string concatenation
         System.out.println("concatenated string= "+name.concat(s2));
 
