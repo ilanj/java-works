@@ -35,7 +35,10 @@ public class EgConst {
         EgConst e=new EgConst(6,10);
         e.showData();
 
-        EgConst e1=new EgConst(e);
+        EgConst aa=new EgConst(78,89);
+        aa.showData();
+
+        EgConst e1=new EgConst(aa);
         e1.showData();
     }
 }

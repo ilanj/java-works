@@ -44,7 +44,7 @@
 //        {
 //            s1.pop();
 //            System.out.println("updated elements after popping are"+s1);
-//        }catch (Exception e)
+//        }catch (ExceptionEg e)
 //        {
 //            System.out.println("stack empty");
 //        }

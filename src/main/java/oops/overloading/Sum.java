@@ -4,7 +4,7 @@ public class Sum {
     public static void main(String[] args) {
 
         Sum s=new Sum();
-        System.out.println(s.sum(10,20));
+        System.out.println(s.sum(10.4545121,20));
     }
     int sum(int x,int y)
     {

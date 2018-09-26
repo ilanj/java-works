@@ -5,6 +5,7 @@ public class TestHierarchialInheritance {
         DerivedOne d1=new DerivedOne();
         d1.sq(d1.getInput());
 
+
         DerivedTwo dt=new DerivedTwo();
         dt.cube(dt.getInput());
 

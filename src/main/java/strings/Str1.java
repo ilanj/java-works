@@ -41,7 +41,7 @@ public class Str1 {
         System.out.println("after trim"+name);
 
         //replace
-        name=name.replace("i","j");
+        name=name.replace(" ","");
         System.out.println("after replace  "+name);
 
         //split

@@ -16,6 +16,7 @@ public class OneD {
             System.out.print("enter "+(i+1)+" number");
             a[i]=in.nextInt();
         }
+
         for (int i=0;i<n;i++)
         {
             System.out.println("a["+i+"]"+a[i]);

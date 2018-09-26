@@ -9,13 +9,14 @@ public class Derived2 extends Derived1 {
 
     public static void main(String[] args) {
         Derived2 d = new Derived2();
+
         System.out.println(d.a);
-        d.sq(10);
+        d.sq(2);
 
         System.out.println(d.b);
-        d.cube(20);
+        d.cube(2);
 
         System.out.println(d.c);
-        d.powerFour(30);
+        d.powerFour(2);
     }
 }

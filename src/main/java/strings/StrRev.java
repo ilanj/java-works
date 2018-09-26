@@ -7,7 +7,10 @@ public class StrRev {
         StringBuilder s=new StringBuilder();
         s.append(name);
         s.reverse();
+        System.out.println("name="+name);
         name=s.toString();
-        System.out.println(name);
+        System.out.println("name="+name);
+
+
     }
 }

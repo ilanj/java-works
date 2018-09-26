@@ -10,6 +10,6 @@ public class Derived extends Base{
         Derived d=new Derived();
         System.out.println(d.a);
         d.sq(10);
-        d.cube(5);
+        d.cube(10);
     }
 }

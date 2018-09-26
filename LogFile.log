@@ -1,0 +1,3 @@
+2018-09-26 22:16:22,859 [main] INFO   advanced.logs.HW - my first log
+2018-09-26 22:16:22,882 [main] DEBUG  advanced.logs.HW - debugging
+2018-09-26 22:16:22,882 [main] ERROR  advanced.logs.HW - error
