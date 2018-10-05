@@ -7,10 +7,13 @@ public class Square {
         Scanner in=new Scanner(System.in);
 
         int n;
+        int sq;
         System.out.println("enter any no to find square");
         n=in.nextInt();
-
-        System.out.println("Square="+(n*n));
+        sq=n*n;
+        System.out.println("Square="+(sq));
+        MethodsDemo mo=new MethodsDemo();
+        System.out.println("div="+mo.division(25,36));
 
     }
 }

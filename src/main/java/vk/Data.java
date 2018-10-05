@@ -8,5 +8,6 @@ public class Data {
     int op4=58;
 
     public static void main(String[] args) {
+        System.out.println(AccessModifiers.public_a);
     }
 }

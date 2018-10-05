@@ -11,14 +11,14 @@ public class SuperDerived extends  SuperBase{
     void print()
     {
         int fee=500;
-        System.out.println(fee);
-        System.out.println(this.fee);
         System.out.println(super.fee);
-
-        this.message();
         super.message();
 
     }
+     SuperDerived()
+     {
+         super();
+     }
 
     public static void main(String[] args) {
         SuperDerived s=new SuperDerived();

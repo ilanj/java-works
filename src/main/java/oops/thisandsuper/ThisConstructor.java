@@ -3,9 +3,15 @@ package oops.thisandsuper;
 public class ThisConstructor {
     String name;
     int rollNo;
+
+    ThisConstructor()
+    {
+        System.out.println("constructor without parameter");
+    }
+
     ThisConstructor(String name)
     {
-        System.out.println(" name="+name);
+        System.out.println(" constructor with one param name="+name);
     }
     ThisConstructor(int rollNo,String name)
     {

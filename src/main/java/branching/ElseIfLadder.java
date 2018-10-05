@@ -8,14 +8,14 @@ public class ElseIfLadder {
     public static void main(String[] args) {
 
         Scanner in=new Scanner(System.in);
+
         int mark;
+
         System.out.println("enter mark");
         mark=in.nextInt();
 
         if(mark==100)
             System.out.println(" S grade");
-        else if(mark>100)
-            System.out.println("invalid");
         else if(mark>90)
             System.out.println("A grade");
         else if(mark>80)

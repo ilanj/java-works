@@ -2,6 +2,7 @@ package strings;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import static java.lang.System.exit;
 
 public class RecordString {
     static ArrayList<String> names=new ArrayList<String>();
@@ -10,35 +11,64 @@ public class RecordString {
 
     public static void main(String[] args)
     {
+        int ch=0;
 
-        int ch;
-        System.out.println("enter choice 1.add  2.display");
-        ch=in.nextInt();
-
-        switch(ch)
+        while(true)
         {
-            case 1:
-                append();
-                break;
+            System.out.println("enter choice \n 1.add  \n 2.search \n 3.display \n 4.Exit");
+            ch=in.nextInt();
 
-            case 2:
-                display();
-                break;
+            switch(ch)
+            {
 
+                case 1:
+                    append();
+                    break;
+
+                case 2:
+                    search();
+                    break;
+
+                case 3:
+                    display();
+                    break;
+
+                case 4:
+                    exit_now();
+                    break;
+            }
         }
     }
 
     static void append()
     {
+        System.out.println("enter any string ");
         String s;
-        s=in.nextLine();
+        s=in.next();
+        names.add(s);
+    }
 
+    static void search()
+    {
+        String search;
+        int len;
+        System.out.println("enter the string to search");
+        search=in.next();
+        len=search.length();
+        for(String s1:names)
+        {
+            if(s1.startsWith(search))
+                System.out.println(s1);
+        }
+    }
+    static void exit_now()
+    {
+        exit(0);
     }
 
     static void display()
     {
+        names.forEach(System.out::println);
 
     }
-
-
 }

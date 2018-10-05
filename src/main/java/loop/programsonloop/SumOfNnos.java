@@ -17,8 +17,5 @@ public class SumOfNnos {
             sum=sum+temp;
         }
         System.out.println("sum="+sum);
-
-
-
     }
 }

@@ -15,8 +15,5 @@ public class Product {
             prod=prod*i;
         }
         System.out.println("prod="+prod);
-
-
-
     }
 }

@@ -7,9 +7,8 @@ public class IncDec {
         //2.pre increament eg: ++a
         int a;
         a=10;
-
-        System.out.println(a--);
-        System.out.println(--a);
+        System.out.println(a++);
+        System.out.println(a);
 
     }
 }

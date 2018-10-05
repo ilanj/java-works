@@ -42,7 +42,5 @@ public class TwoDMulti {
             }
             System.out.println();
         }
-
-
     }
 }

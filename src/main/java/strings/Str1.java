@@ -45,6 +45,7 @@ public class Str1 {
         System.out.println("after replace  "+name);
 
         //split
+        System.out.println("splitting with space");
         String[] splitArray;
         splitArray=name.split(" ");
 
@@ -55,8 +56,8 @@ public class Str1 {
 
     for(String s1:splitArray)
         System.out.println(s1);
-
         //to char array
+        System.out.println("printing as a char array");
         char ca[];
         ca=name.toCharArray();
 
@@ -76,14 +77,11 @@ public class Str1 {
         for(String s1:splitArray)
         {
             sb.append(s1);
-
         }
         sb=sb.reverse();
         System.out.println("after reverse using string builder"+sb.toString());
 
         //string concatenation
         System.out.println("concatenated string= "+name.concat(s2));
-
-
     }
 }

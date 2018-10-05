@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class OneD {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
-
+        System.out.println("enter n");
         int n=in.nextInt();
         int sum=0;
 
@@ -22,8 +22,6 @@ public class OneD {
             System.out.println("a["+i+"]"+a[i]);
             sum=sum+a[i];
         }
-        System.out.println(sum);
+        System.out.println("sum="+sum);
     }
-
-
 }

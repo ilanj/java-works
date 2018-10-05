@@ -6,7 +6,6 @@ public class ThisBasic {
     ThisBasic()
     {
         String name="I am a local variable inside method";
-        System.out.println(name);
         System.out.println(this.name);
 
     }

@@ -7,6 +7,7 @@ public class Reverse {
     {
        Scanner in=new Scanner(System.in);
 
+        System.out.println("enter any string to reverse");
        String name=in.nextLine();
        String reverse="";
        int len=name.length();
@@ -14,13 +15,11 @@ public class Reverse {
        {
            reverse=reverse+name.charAt(i);
        }
-        System.out.println(reverse);
+        System.out.println("after reverse= "+reverse);
 
        if(name.equals(reverse))
            System.out.println("palindrome");
        else
            System.out.println("not a palindrome");
-
-
     }
 }

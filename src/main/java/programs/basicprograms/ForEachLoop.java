@@ -14,7 +14,9 @@ public class ForEachLoop {
         for(int i=0;i<n;i++)
             a.add(UUID.randomUUID().toString());
 
-       // a.forEach(System.out::println);
+      a.forEach(System.out::println);
+      a.forEach(ss->method1(ss));
+      a.forEach(sdh->method1());
 //       a.forEach(s->method1(s));
        a.forEach(d->method1());
 //       a.forEach(ForEachLoop::method1);

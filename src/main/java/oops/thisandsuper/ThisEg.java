@@ -10,21 +10,18 @@ public class ThisEg {
     String name;
 
     ThisEg(int no,String name){
-
         this.no=no;
         this.name=name;
         this.display(); //implicit call using this without creating object
     }
+
     void display()
     {
         System.out.println("you have called display method");
-
         System.out.println(no+" "+name);
-
     }
 
     public static void main(String[] args) {
-
 ThisEg t=new ThisEg(25,"ila");
 t.display();
     }

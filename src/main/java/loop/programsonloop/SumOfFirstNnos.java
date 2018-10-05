@@ -16,8 +16,5 @@ public class SumOfFirstNnos {
             sum=sum+i;
         }
         System.out.println("sum="+sum);
-
-
-
     }
 }

@@ -9,6 +9,15 @@ public class BreakContinue {
 
         System.out.println("enter n");
         n=in.nextInt();
+        System.out.println("example for break");
+        for(int i=0;i<n;i++)
+        {
+            if(i==4)
+                break;
+            System.out.println(i);
+
+        }
+        System.out.println("example for continue");
 
         for(int i=0;i<n;i++)
         {

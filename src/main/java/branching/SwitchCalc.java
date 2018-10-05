@@ -37,11 +37,5 @@ public class SwitchCalc {
                 default:
                     System.out.println("enter 1 or 2 or 3 only");
         }
-
-
-
-
-
-
     }
 }
