@@ -11,6 +11,7 @@ public class Reverse {
        String name=in.nextLine();
        String reverse="";
        int len=name.length();
+
        for(int i=len-1;i>=0;i--)
        {
            reverse=reverse+name.charAt(i);
@@ -22,4 +23,5 @@ public class Reverse {
        else
            System.out.println("not a palindrome");
     }
+
 }

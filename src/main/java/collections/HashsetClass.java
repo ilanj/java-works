@@ -2,10 +2,12 @@ package collections;
 
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class HashsetClass {
     public static void main(String[] args) {
-        HashSet<Integer> h=new HashSet<>();
+        Set<Integer> h=new HashSet<>();
 
         h.add(45);
         h.add(58);

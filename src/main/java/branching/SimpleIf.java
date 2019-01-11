@@ -7,13 +7,20 @@ public class SimpleIf {
     public static void main(String[] args) {
 
         Scanner in=new Scanner(System.in);
-
+        int age;
         System.out.println("enter age");
-        int age=in.nextInt();
-         if(age>=18)
-         {
-             System.out.println("eligible");
-         }
+        age=in.nextInt();
+
+        if(age>=18)
+        {
+            System.out.println("eligible to vote");
+        }
+        else
+        {
+            System.out.println("not eligible");
+        }
+
+
 
     }
 }

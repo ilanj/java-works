@@ -13,19 +13,21 @@ public class ThisConstructor {
     {
         System.out.println(" constructor with one param name="+name);
     }
+
     ThisConstructor(int rollNo,String name)
     {
-        this(name);
+        this();
         this.rollNo=rollNo;
         this.name=name;
 
     }
     void display()
     {
-        System.out.println(this.name+"  "+rollNo);
+        System.out.println(name+"  "+rollNo);
     }
 
     public static void main(String[] args) {
+
         ThisConstructor t=new ThisConstructor(25,"ila");
         t.display();
     }

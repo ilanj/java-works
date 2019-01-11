@@ -6,15 +6,13 @@ import java.util.Scanner;
 public class WhileLoop {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
-        System.out.println("enter n ");
-        int n=in.nextInt();
-
-        int i=0;
-        while(i<n)
-        {
-            System.out.println(i);
-            i++;//i+i+1
-        }
-        System.out.println("loop break");
+        int n,fact=1;
+        System.out.println("enter how many u want to print");
+        n=in.nextInt();
+       for(int i=1;i<=n;i++)
+       {
+           fact=fact*i;
+       }
+        System.out.println("fact="+fact);
     }
 }

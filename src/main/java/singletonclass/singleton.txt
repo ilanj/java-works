@@ -1,0 +1,16 @@
+
+Singleton Class in Java
+
+In object-oriented programming, a singleton class is a class that can have only one object (an instance of the class) at a time.
+After first time, if we try to instantiate the Singleton class, the new variable also points to the first instance created. So whatever modifications we do to any variable inside the class through any instance, it affects the variable of the single instance created and is visible if we access that variable through any variable of that class type defined.
+To design a singleton class:
+
+    Make constructor as private.
+    Write a static method that has return type object of this singleton class. Here, the concept of Lazy initialization in used to write this static method.
+
+Normal class vs Singleton class: Difference in normal and singleton class in terms of instantiation is that, For normal class we use constructor, whereas for singleton class we use getInstance() method (Example code:I). In general, to avoid confusion we may also use the class name as method name while defining this method
+
+------------------------------------
+Explanation: In the Singleton class, when we first time call getInstance() method, it creates an object of the class with name single_instance and return it to the variable. Since single_instance is static, it is changed from null to some object. Next time, if we try to call getInstance() method, since single_instance is not null, it is returned to the variable, instead of instantiating the Singleton class again. This part is done by if condition.
+
+In the main class, we instantiate the singleton class with 3 objects x, y, z by calling static method getInstance(). But actually after creation of object x, variables y and z are pointed to object x as shown in the diagram. Hence, if we change the variables of object x, that is reflected when we access the variables of objects y and z. Also if we change the variables of object z, that is reflected when we access the variables of objects x and y.

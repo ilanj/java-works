@@ -6,8 +6,7 @@ import static java.lang.System.exit;
 
 public class RecordString {
     static ArrayList<String> names=new ArrayList<String>();
-    static   Scanner in=new Scanner(System.in);
-
+    static Scanner in=new Scanner(System.in);
 
     public static void main(String[] args)
     {

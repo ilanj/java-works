@@ -8,7 +8,7 @@ public class LinkedHashMapCollection {
     public static void main(String[] args) {
         Map<Integer,String> h=new LinkedHashMap<>();//only diff from hashmap, is maintains insertion order
 
-        h.put(101,"Vijay");
+        h.put(null,"Vijay");
         h.put(100,"Amit");
         h.put(102,"Rahul");
         h.put(104,"Amit");

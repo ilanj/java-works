@@ -30,15 +30,19 @@ public class EgConst {
 
     public static void main(String[] args) {
 
-        EgConst e2=new EgConst();
+ //       EgConst e=new EgConst();
 
-        EgConst e=new EgConst(6,10);
-        e.showData();
-
-        EgConst aa=new EgConst(78,89);
-        aa.showData();
-
-        EgConst e1=new EgConst(aa);
-        e1.showData();
+        EgConst e2=new EgConst(25,33);
+        EgConst copycon=new EgConst(e2);
+        copycon.showData();
+//
+//        EgConst e=new EgConst(6,10);
+//        e.showData();
+//
+//        EgConst aa=new EgConst(78,89);
+//        aa.showData();
+//
+//        EgConst e1=new EgConst(aa);
+//        e1.showData();
     }
 }

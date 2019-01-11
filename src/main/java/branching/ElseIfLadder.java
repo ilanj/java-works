@@ -3,7 +3,7 @@ package branching;
 import java.util.Scanner;
 
 //illustrate grade system
-//>100-s,  >90 -A,  >80-B,   >70-C,  >60-D,  >50-E,  50<-U
+//=100-s,  >90 -A,  >80-B,   >70-C,  >60-D,  >50-E,  50<-U
 public class ElseIfLadder {
     public static void main(String[] args) {
 
@@ -13,6 +13,7 @@ public class ElseIfLadder {
 
         System.out.println("enter mark");
         mark=in.nextInt();
+
 
         if(mark==100)
             System.out.println(" S grade");
@@ -28,7 +29,5 @@ public class ElseIfLadder {
             System.out.println("E grade");
         else
             System.out.println("Fail");
-
-
     }
 }

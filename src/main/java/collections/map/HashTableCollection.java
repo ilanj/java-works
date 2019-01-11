@@ -8,7 +8,7 @@ public class HashTableCollection {
     public static void main(String[] args) {
         Map<Integer,String> h=new Hashtable<>();
 
-        h.put(101,"Vijay");
+        h.put(null,"Vijay");
         h.put(100,"dupl");
         h.put(102,"Rahul");
         h.put(104,"Amit");

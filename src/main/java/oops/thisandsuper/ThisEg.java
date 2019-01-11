@@ -21,8 +21,9 @@ public class ThisEg {
         System.out.println(no+" "+name);
     }
 
-    public static void main(String[] args) {
-ThisEg t=new ThisEg(25,"ila");
-t.display();
+    public static void main(String[] args)
+    {
+       ThisEg t=new ThisEg(25,"ila");
+       t.display();
     }
 }

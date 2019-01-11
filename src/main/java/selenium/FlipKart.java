@@ -2,8 +2,11 @@ package selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class FlipKart {
@@ -14,9 +17,10 @@ public class FlipKart {
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
         driver.get("https://www.flipkart.com/");
-        driver.findElement(By.xpath("//*[@id=\'container\']/div/header/div[1]/div/div/div/div[3]/div[1]/div/a")).click();
+        List<WebElement> links=new ArrayList<>();
+        links=driver.findElements(By.tagName("a"));
 
-       driver.findElement(By.className("_2AkmmA _29YdH8")).click();
+       links.forEach(a-> System.out.println(a.getText()));
         System.out.println("exit");
 //        driver.findElement(By.xpath("//*[@id=\'u_0_2\']")).click();
 

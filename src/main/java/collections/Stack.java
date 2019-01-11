@@ -1,4 +1,6 @@
 //package collections;
+//import exception.ExceptionEg;
+//
 //import java.util.*;
 //
 //public class Stack {

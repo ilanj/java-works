@@ -1,11 +1,14 @@
 package vk;
 
 public class AccessModifiers {
-    public  static int public_a=10;
+    int a=6;
+    int b=10;
+    static String name1="chennai";
 
 
     public static void main(String[] args) {
-        System.out.println(AccessModifiers.public_a);
+        String name="i am in main";
+        System.out.println();
 
 
     }

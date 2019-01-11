@@ -6,12 +6,12 @@ import java.util.TreeMap;
 
 public class TreeMapCollection {
     public static void main(String[] args) {
-        Map<Integer,String> h=new TreeMap<>();//maintains ascending order unlike hashmap
+        Map<String,Integer> h=new TreeMap<>();//maintains ascending order unlike hashmap
 
-        h.put(101,"Vijay");
-        h.put(100,"Amit");
-        h.put(102,"Rahul");
-        h.put(104,"Amit");
+        h.put("ilan",25);
+        h.put("Amit",61);
+        h.put("bala",102);
+        h.put("riyaz",13);
 
         /* using iterator
         Iterator<Map.Entry<Integer, String>> it = h.entrySet().iterator();

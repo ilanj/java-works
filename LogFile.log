@@ -1,3 +1,72 @@
-2018-09-28 16:43:46,313 [main] INFO   advanced.logs.HW - my first log
-2018-09-28 16:43:46,318 [main] DEBUG  advanced.logs.HW - debugging
-2018-09-28 16:43:46,318 [main] ERROR  advanced.logs.HW - error
+2018-12-25 12:03:05,089 [main] INFO   advanced.logs.HW - my first log-
+2018-12-25 12:03:05,095 [main] DEBUG  advanced.logs.HW - debugging
+2018-12-25 12:03:05,095 [main] ERROR  advanced.logs.HW - error
+2018-12-25 12:19:55,994 [main] INFO   advanced.logs.HW - my first log-
+2018-12-25 12:19:56,002 [main] DEBUG  advanced.logs.HW - debugging
+2018-12-25 12:19:56,002 [main] ERROR  advanced.logs.HW - error
+2018-12-25 12:19:56,002 [main] WARN   advanced.logs.HW - this is a warnung
+2018-12-25 12:20:20,542 [main] INFO   advanced.logs.HW - my first log-
+2018-12-25 12:20:20,548 [main] DEBUG  advanced.logs.HW - debugging
+2018-12-25 12:20:20,548 [main] ERROR  advanced.logs.HW - error
+2018-12-25 12:20:20,548 [main] WARN   advanced.logs.HW - this is a warnung
+2019-01-09 21:56:42,633 [main] INFO   org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-01-09 21:56:42,747 [main] DEBUG  org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2019-01-09 22:18:44,940 [main] INFO   org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-01-09 22:18:44,982 [main] DEBUG  org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2019-01-09 22:18:45,018 [main] INFO   org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2019-01-09 22:18:45,049 [cluster-ClusterId{value='5c3625eca5fb9e03e4d87368', description='null'}-localhost:27017] INFO   org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:13}] to localhost:27017
+2019-01-09 22:18:45,050 [cluster-ClusterId{value='5c3625eca5fb9e03e4d87368', description='null'}-localhost:27017] DEBUG  org.mongodb.driver.cluster - Checking status of localhost:27017
+2019-01-09 22:18:45,062 [cluster-ClusterId{value='5c3625eca5fb9e03e4d87368', description='null'}-localhost:27017] INFO   org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 0]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4734106}
+2019-01-09 22:18:45,077 [cluster-ClusterId{value='5c3625eca5fb9e03e4d87368', description='null'}-localhost:27017] DEBUG  org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.7 ms, state=CONNECTED}]
+2019-01-09 22:18:45,123 [main] INFO   org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:14}] to localhost:27017
+2019-01-09 22:18:45,131 [main] DEBUG  org.mongodb.driver.protocol.command - Sending command {create : BsonString{value='company_names'}} to advanced.database ila_practice on connection [connectionId{localValue:2, serverValue:14}] to server localhost:27017
+2019-01-09 22:18:45,325 [main] DEBUG  org.mongodb.driver.protocol.command - Command execution completed
+2019-01-09 22:31:39,916 [main] INFO   org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-01-09 22:31:39,958 [main] DEBUG  org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2019-01-09 22:31:39,975 [main] INFO   org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2019-01-09 22:31:39,995 [cluster-ClusterId{value='5c3628f3a5fb9e18687ba669', description='null'}-localhost:27017] INFO   org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:16}] to localhost:27017
+2019-01-09 22:31:39,995 [cluster-ClusterId{value='5c3628f3a5fb9e18687ba669', description='null'}-localhost:27017] DEBUG  org.mongodb.driver.cluster - Checking status of localhost:27017
+2019-01-09 22:31:40,000 [cluster-ClusterId{value='5c3628f3a5fb9e18687ba669', description='null'}-localhost:27017] INFO   org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 0]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3379724}
+2019-01-09 22:31:40,002 [cluster-ClusterId{value='5c3628f3a5fb9e18687ba669', description='null'}-localhost:27017] DEBUG  org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.4 ms, state=CONNECTED}]
+2019-01-09 22:31:40,027 [main] INFO   org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:17}] to localhost:27017
+2019-01-09 22:31:40,035 [main] DEBUG  org.mongodb.driver.protocol.command - Sending command {create : BsonString{value='company_names'}} to advanced.database ila_practice on connection [connectionId{localValue:2, serverValue:17}] to server localhost:27017
+2019-01-09 22:32:30,464 [main] INFO   org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-01-09 22:32:30,515 [main] DEBUG  org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2019-01-09 22:32:30,591 [main] INFO   org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2019-01-09 22:32:30,599 [cluster-ClusterId{value='5c362926a5fb9e10f4130111', description='null'}-localhost:27017] INFO   org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:18}] to localhost:27017
+2019-01-09 22:32:30,599 [cluster-ClusterId{value='5c362926a5fb9e10f4130111', description='null'}-localhost:27017] DEBUG  org.mongodb.driver.cluster - Checking status of localhost:27017
+2019-01-09 22:32:30,604 [cluster-ClusterId{value='5c362926a5fb9e10f4130111', description='null'}-localhost:27017] INFO   org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 0]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3257765}
+2019-01-09 22:32:30,605 [cluster-ClusterId{value='5c362926a5fb9e10f4130111', description='null'}-localhost:27017] DEBUG  org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.3 ms, state=CONNECTED}]
+2019-01-09 22:32:30,763 [main] INFO   org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:19}] to localhost:27017
+2019-01-09 22:32:30,775 [main] DEBUG  org.mongodb.driver.protocol.command - Sending command {insert : BsonString{value='company_names'}} to advanced.database ila_practice on connection [connectionId{localValue:2, serverValue:19}] to server localhost:27017
+2019-01-09 22:32:30,777 [main] DEBUG  org.mongodb.driver.protocol.command - Command execution completed
+2019-01-09 22:32:57,199 [main] INFO   org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-01-09 22:32:57,238 [main] DEBUG  org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2019-01-09 22:32:57,277 [main] INFO   org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2019-01-09 22:32:57,297 [cluster-ClusterId{value='5c362941a5fb9e2c24ae2748', description='null'}-localhost:27017] INFO   org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:20}] to localhost:27017
+2019-01-09 22:32:57,297 [cluster-ClusterId{value='5c362941a5fb9e2c24ae2748', description='null'}-localhost:27017] DEBUG  org.mongodb.driver.cluster - Checking status of localhost:27017
+2019-01-09 22:32:57,302 [cluster-ClusterId{value='5c362941a5fb9e2c24ae2748', description='null'}-localhost:27017] INFO   org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 0]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3790155}
+2019-01-09 22:32:57,304 [cluster-ClusterId{value='5c362941a5fb9e2c24ae2748', description='null'}-localhost:27017] DEBUG  org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.8 ms, state=CONNECTED}]
+2019-01-09 22:32:57,326 [main] INFO   org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:21}] to localhost:27017
+2019-01-09 22:32:57,336 [main] DEBUG  org.mongodb.driver.protocol.command - Sending command {insert : BsonString{value='company_names'}} to advanced.database ila_practice on connection [connectionId{localValue:2, serverValue:21}] to server localhost:27017
+2019-01-09 22:32:57,340 [main] DEBUG  org.mongodb.driver.protocol.command - Command execution completed
+2019-01-09 22:33:38,080 [main] INFO   org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-01-09 22:33:38,111 [main] DEBUG  org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2019-01-09 22:33:38,132 [main] INFO   org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2019-01-09 22:33:38,142 [cluster-ClusterId{value='5c36296aa5fb9e1e34c2c9de', description='null'}-localhost:27017] INFO   org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:22}] to localhost:27017
+2019-01-09 22:33:38,142 [cluster-ClusterId{value='5c36296aa5fb9e1e34c2c9de', description='null'}-localhost:27017] DEBUG  org.mongodb.driver.cluster - Checking status of localhost:27017
+2019-01-09 22:33:38,146 [cluster-ClusterId{value='5c36296aa5fb9e1e34c2c9de', description='null'}-localhost:27017] INFO   org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 0]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2333826}
+2019-01-09 22:33:38,147 [cluster-ClusterId{value='5c36296aa5fb9e1e34c2c9de', description='null'}-localhost:27017] DEBUG  org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=2.3 ms, state=CONNECTED}]
+2019-01-09 22:33:38,161 [main] INFO   org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:23}] to localhost:27017
+2019-01-09 22:33:38,169 [main] DEBUG  org.mongodb.driver.protocol.command - Sending command {insert : BsonString{value='company_names'}} to advanced.database ila_practice on connection [connectionId{localValue:2, serverValue:23}] to server localhost:27017
+2019-01-09 22:33:38,170 [main] DEBUG  org.mongodb.driver.protocol.command - Command execution completed
+2019-01-09 22:49:14,387 [main] INFO   org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-01-09 22:49:14,438 [main] DEBUG  org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2019-01-09 22:49:14,530 [main] INFO   org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2019-01-09 22:49:14,539 [cluster-ClusterId{value='5c362d12a5fb9e1edc21c470', description='null'}-localhost:27017] INFO   org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:24}] to localhost:27017
+2019-01-09 22:49:14,539 [cluster-ClusterId{value='5c362d12a5fb9e1edc21c470', description='null'}-localhost:27017] DEBUG  org.mongodb.driver.cluster - Checking status of localhost:27017
+2019-01-09 22:49:14,545 [cluster-ClusterId{value='5c362d12a5fb9e1edc21c470', description='null'}-localhost:27017] INFO   org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 0]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3767499}
+2019-01-09 22:49:14,547 [cluster-ClusterId{value='5c362d12a5fb9e1edc21c470', description='null'}-localhost:27017] DEBUG  org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.8 ms, state=CONNECTED}]
+2019-01-09 22:49:14,570 [main] INFO   org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:25}] to localhost:27017
+2019-01-09 22:49:14,580 [main] DEBUG  org.mongodb.driver.protocol.command - Sending command {find : BsonString{value='company_names'}} to advanced.database ila_practice on connection [connectionId{localValue:2, serverValue:25}] to server localhost:27017
+2019-01-09 22:49:14,585 [main] DEBUG  org.mongodb.driver.protocol.command - Command execution completed

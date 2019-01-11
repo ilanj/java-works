@@ -4,7 +4,8 @@ import java.util.*;
 
 public class ListArraylist
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner in = new Scanner(System.in);
 
         System.out.println("enter the method u wanna call");
@@ -18,8 +19,6 @@ public class ListArraylist
         else
             System.out.println("enter a valid choice");
     }
-
-
 
 
     static void arrayList()
@@ -69,7 +68,7 @@ public class ListArraylist
         for(int temp:l)
             System.out.println(temp);
 
-        System.out.println("after sort");
+        System.out.println("before sort");
         Collections.sort(l);
         System.out.println(l);
 
@@ -80,6 +79,7 @@ public class ListArraylist
         System.out.println("inserting at begining");
 
         System.out.println(l);
+        l.add(1,78);
         l.remove(0);
         l.remove(0);
         l.remove(0);

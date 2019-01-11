@@ -1,5 +1,6 @@
 package advanced.threading;
 
+import static advanced.threading.ThreadSleepDemo.message1;
 import static jdk.nashorn.internal.runtime.regexp.joni.Syntax.Java;
 
 public class CheckTimeJava8 {
@@ -12,6 +13,15 @@ public class CheckTimeJava8 {
         new Thread(CheckTimeJava8::method1).start();
         new Thread(()->method2()).start();
         new Thread(()->method3()).start();
+        //method from another class
+        new Thread(() -> {
+            try {
+                ThreadSleepDemo.message1();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }).start();
+
     }
 
     static void method1() {

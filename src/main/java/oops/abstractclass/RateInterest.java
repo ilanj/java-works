@@ -1,12 +1,12 @@
 package oops.abstractclass;
 
- abstract class Addr {
+ abstract class RateInterest {
 
      int add(int a,int b){
          return a+b;
      }
 
-     abstract String addr();
+     abstract double roi();
 
 
 }

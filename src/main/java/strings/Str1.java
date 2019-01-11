@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class Str1 {
     public static void main(String[] args) {
+
         Scanner in=new Scanner(System.in);
 
         String name;
@@ -15,7 +16,7 @@ public class Str1 {
         //charAt()
         char ch;
         ch=name.charAt(3);
-        System.out.println("char at 3"+ch);
+        System.out.println("char at 3 is "+ch);
 
         //length
         int length;
@@ -23,7 +24,7 @@ public class Str1 {
         System.out.println("length of "+name+" = "+length);
 
         //Substring
-        String sub=name.substring(1,5);
+        String sub=name.substring(1,6);
         System.out.println("substring="+sub);
 
         //contains
@@ -41,12 +42,12 @@ public class Str1 {
         System.out.println("after trim"+name);
 
         //replace
-        name=name.replace(" ","");
+        name=name.replace(" ","");//"\\d"
         System.out.println("after replace  "+name);
 
         //split
         System.out.println("splitting with space");
-        String[] splitArray;
+        String splitArray[];
         splitArray=name.split(" ");
 
 //      int len;
@@ -73,11 +74,11 @@ public class Str1 {
 
         //string builder
         StringBuilder sb=new StringBuilder();
-
         for(String s1:splitArray)
         {
             sb.append(s1);
         }
+        System.out.println("using string builder "+sb.toString());
         sb=sb.reverse();
         System.out.println("after reverse using string builder"+sb.toString());
 

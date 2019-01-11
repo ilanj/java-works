@@ -9,11 +9,12 @@ public class ForLoop {
 
         System.out.println("enter how many nos u want");
         n=in.nextInt();
-
-        for(i=0;i<=n;i++)
+        int fact=1;
+        for(i=1;i<=n;i++)
         {
-            System.out.println(i);
 
+            fact=fact*i;
         }
+        System.out.println(fact);
     }
 }

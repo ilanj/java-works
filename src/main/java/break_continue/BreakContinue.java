@@ -13,15 +13,6 @@ public class BreakContinue {
         for(int i=0;i<n;i++)
         {
             if(i==4)
-                break;
-            System.out.println(i);
-
-        }
-        System.out.println("example for continue");
-
-        for(int i=0;i<n;i++)
-        {
-            if(i==4)
                 continue;
             System.out.println(i);
 

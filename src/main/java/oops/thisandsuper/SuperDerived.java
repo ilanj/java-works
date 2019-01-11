@@ -12,17 +12,18 @@ public class SuperDerived extends  SuperBase{
     {
         int fee=500;
         System.out.println(super.fee);
-        super.message();
-
+       // super.message();
     }
      SuperDerived()
      {
          super();
      }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         SuperDerived s=new SuperDerived();
         s.print();
+
 
 
     }
