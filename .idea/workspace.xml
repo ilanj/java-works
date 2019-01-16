@@ -1,141 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="085a71fd-28a0-4ce3-8a2c-0671cd485a30" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advanced/database/mongodb/ConnectDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advanced/database/mongodb/CreateCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advanced/database/mongodb/GetDocumentCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advanced/database/sql/AddData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advanced/threading/ThreadSleepDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/branching/NestedIfElse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/buffer/ListEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/ArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/map/note_map.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/vector.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/vector/VectorEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/loop/Looping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/loop/allbasicloop/BreakContinue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/loop/programsonloop/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/loop/programsonloop/PascalTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/loop/programsonloop/Patterns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/loop/programsonloop/ReversingNos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/loop/programsonloop/SumOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oops/ClassAndObj/DataModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oops/ClassAndObj/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oops/thisandsuper/BaseClassEg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programs/basicprograms/Circumference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programs/basicprograms/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programs/basicprograms/Datatyoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programs/basicprograms/MethodEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programs/basicprograms/Modifiers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programs/basicprograms/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singletonclass/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singletonclass/SingletonPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singletonclass/singleton.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strings/Delete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+    <list default="true" id="085a71fd-28a0-4ce3-8a2c-0671cd485a30" name="Default" comment="added buffer">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advanced/lambdas/OneThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advanced/lambdas/ThreeParallemStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advanced/lambdas/TwoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advanced/lambdas/filter/ListImplementations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advanced/lambdas/filter/ModelData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/loop/programsonloop/BiaryNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/loop/programsonloop/CharCountInAscendingOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/loop/programsonloop/WordCountAscendingOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oops/encapsulation/test/AccessModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oops/encapsulation/test/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LogFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/LogFile.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaDemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/advanced/logs/HW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/advanced/logs/HW.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/advanced/threading/CheckTimeJava8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/advanced/threading/CheckTimeJava8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/OneD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/OneD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/branching/ElseIfLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/branching/ElseIfLadder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/branching/OddorEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/branching/OddorEven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/branching/SimpleIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/branching/SimpleIf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/branching/SwitchCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/branching/SwitchCalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/break_continue/BreakContinue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/break_continue/BreakContinue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/HashsetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/HashsetClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/ListArraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/ListArraylist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/PriorityQueueCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/PriorityQueueCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/HashMapCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/map/HashMapCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/HashTableCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/map/HashTableCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/LinkedHashMapCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/map/LinkedHashMapCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/TreeMapCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/map/TreeMapCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/BasicConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/advanced/database/sql/BasicConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exception/ExceptionEg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception/ExceptionEg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/loop/allbasicloop/ForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/loop/allbasicloop/ForLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/loop/allbasicloop/WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/loop/allbasicloop/WhileLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/abstractclass/Addr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/abstractclass/RateInterest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/abstractclass/LocalAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/abstractclass/Sbi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/abstractclass/NativeAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/abstractclass/IndianBank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/abstractclass/TestAbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/abstractclass/TestAbstractClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/constructor/basicconstructor/EgConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/constructor/basicconstructor/EgConst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/encapsulation/StudentDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/encapsulation/StudentDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/encapsulation/testEncapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/encapsulation/testEncapsulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/inheritance/multilevel/BaseCl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/inheritance/multilevel/BaseCl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/inheritance/multilevel/Derived1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/inheritance/multilevel/Derived1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/inheritance/multilevel/Derived2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/inheritance/multilevel/Derived2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/inheritance/single/Derived.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/inheritance/single/Derived.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/interfaces/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/interfaces/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/interfaces/TestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/interfaces/TestInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/overloading/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/overloading/Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/overloading/overriding/BaseEgx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/overloading/overriding/BaseEgx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/overloading/overriding/DerivedEgx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/overloading/overriding/DerivedEgx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/thisandsuper/SuperDerived.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/thisandsuper/SuperDerived.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/thisandsuper/ThisBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/thisandsuper/ThisBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/thisandsuper/ThisConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/thisandsuper/ThisConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oops/thisandsuper/ThisEg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/thisandsuper/ThisEg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/programs/basicprograms/AreaCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/programs/basicprograms/AreaCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/selenium/FlipKart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selenium/FlipKart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strings/RecordString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strings/RecordString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strings/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strings/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/buffer/ListEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/buffer/ListEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/list/ArrayListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/DequeueCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/others/DequeueCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/HashsetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/set/HashsetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/LinkedHashSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/set/LinkedHashSetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/ListArraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/list/ListArraylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/PriorityQueueCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/others/PriorityQueueCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/others/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/TreeSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/set/TreeSetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/vector.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/vector/vector.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strings/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strings/Delete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/strings/Str1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strings/Str1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strings/StrRev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strings/StrRev.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/variavles/VariablesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/variavles/VariablesDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vk/AccessModifiers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vk/AccessModifiers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vk/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vk/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/advanced/logs/HW.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/advanced/logs/HW.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/advanced/threading/CheckTimeJava8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/advanced/threading/CheckTimeJava8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/arrays/OneD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arrays/OneD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/branching/ElseIfLadder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/branching/ElseIfLadder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/branching/OddorEven.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/branching/OddorEven.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/branching/SimpleIf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/branching/SimpleIf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/branching/SwitchCalc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/branching/SwitchCalc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/break_continue/BreakContinue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/break_continue/BreakContinue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collections/HashsetClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/HashsetClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collections/ListArraylist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/ListArraylist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collections/PriorityQueueCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/PriorityQueueCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collections/map/HashMapCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/map/HashMapCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collections/map/HashTableCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/map/HashTableCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collections/map/LinkedHashMapCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/map/LinkedHashMapCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collections/map/TreeMapCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/map/TreeMapCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/BasicConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exception/ExceptionEg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exception/ExceptionEg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/loop/allbasicloop/ForLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/loop/allbasicloop/ForLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/loop/allbasicloop/WhileLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/loop/allbasicloop/WhileLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/abstractclass/Addr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/abstractclass/LocalAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/abstractclass/NativeAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/abstractclass/TestAbstractClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/abstractclass/TestAbstractClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/constructor/basicconstructor/EgConst.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/constructor/basicconstructor/EgConst.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/encapsulation/StudentDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/encapsulation/StudentDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/encapsulation/testEncapsulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/encapsulation/testEncapsulation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/inheritance/multilevel/BaseCl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/inheritance/multilevel/BaseCl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/inheritance/multilevel/Derived1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/inheritance/multilevel/Derived1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/inheritance/multilevel/Derived2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/inheritance/multilevel/Derived2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/inheritance/single/Derived.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/inheritance/single/Derived.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/interfaces/TestInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/interfaces/TestInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/overloading/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/overloading/Sum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/overloading/overriding/BaseEgx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/overloading/overriding/BaseEgx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/overloading/overriding/DerivedEgx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/overloading/overriding/DerivedEgx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/thisandsuper/SuperDerived.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/thisandsuper/SuperDerived.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/thisandsuper/ThisBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/thisandsuper/ThisBasic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/thisandsuper/ThisConstructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/thisandsuper/ThisConstructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/oops/thisandsuper/ThisEg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oops/thisandsuper/ThisEg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/programs/basicprograms/AreaCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/programs/basicprograms/AreaCircle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/selenium/FlipKart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/selenium/FlipKart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strings/RecordString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strings/RecordString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strings/Reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strings/Reverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collections/DequeueCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collections/HashsetClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collections/LinkedHashSetClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collections/ListArraylist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collections/PriorityQueueCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collections/TreeSetClass.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/strings/Str1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strings/Str1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strings/StrRev.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strings/StrRev.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/variavles/VariablesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/variavles/VariablesDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vk/AccessModifiers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vk/AccessModifiers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vk/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vk/Data.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -149,22 +50,26 @@
     <SUITE FILE_PATH="coverage/javaDemo$Print.coverage" NAME="Print Coverage Results" MODIFIED="1533651080388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>demo.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/javaDemo$CharCountInAscendingOrder.ic" NAME="CharCountInAscendingOrder Coverage Results" MODIFIED="1547644267085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>loop.programsonloop.*</FILTER>
+    </SUITE>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1392911710">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="44" />
+          <entry key="project.closed" value="48" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.106" value="1" />
           <entry key="project.open.time.111" value="1" />
           <entry key="project.open.time.12" value="5" />
           <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="10" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="12" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="2" />
@@ -174,10 +79,11 @@
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="3" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.3" value="9" />
+          <entry key="project.open.time.3" value="10" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.37" value="3" />
-          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.41" value="2" />
           <entry key="project.open.time.42" value="1" />
@@ -186,9 +92,11 @@
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.60" value="2" />
           <entry key="project.open.time.61" value="2" />
           <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.70" value="2" />
           <entry key="project.open.time.71" value="1" />
@@ -196,12 +104,12 @@
           <entry key="project.open.time.79" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="90" />
+          <entry key="project.opened" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="324" />
+          <entry key="java" value="354" />
           <entry key="log" value="2" />
           <entry key="txt" value="3" />
           <entry key="xml" value="5" />
@@ -210,7 +118,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="324" />
+          <entry key="JAVA" value="354" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="5" />
           <entry key="YAML" value="2" />
@@ -219,17 +127,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="25" />
-          <entry key="java" value="13788" />
+          <entry key="java" value="17033" />
           <entry key="log" value="1" />
-          <entry key="txt" value="46" />
+          <entry key="txt" value="58" />
           <entry key="xml" value="2" />
           <entry key="yml" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13788" />
-          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="JAVA" value="17033" />
+          <entry key="PLAIN_TEXT" value="84" />
           <entry key="XML" value="2" />
           <entry key="YAML" value="25" />
         </counts>
@@ -239,103 +147,100 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oops/thisandsuper/ThisBasic.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/advanced/lambdas/TwoList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="187">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oops/interfaces/Address.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/loop/programsonloop/CharCountInAscendingOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oops/interfaces/LocalAddress.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="41" />
+            <state relative-caret-position="293">
+              <caret line="29" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="29" />
               <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oops/abstractclass/TestAbstractClass.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/loop/programsonloop/WordCountAscendingOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="157">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oops/abstractclass/RateInterest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/loop/programsonloop/BiaryNo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="247">
+              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/buffer/ListEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strings/Str1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oops/encapsulation/StudentDetail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oops/encapsulation/test/Model.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#86#87#0" expanded="true" />
-                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oops/interfaces/NativeAddress.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oops/encapsulation/test/AccessModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="27" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="27" />
-              <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#150#151#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oops/interfaces/TestInterface.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/collections/set/TreeSetClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oops/thisandsuper/ThisConstructor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oops/thisandsuper/ThisEg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oops/thisandsuper/BaseClassEg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            <state relative-caret-position="136">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -370,30 +275,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LogFile.log" />
-        <option value="$PROJECT_DIR$/src/main/java/advanced/logs/HW.java" />
-        <option value="$PROJECT_DIR$/src/main/java/programs/basicprograms/Circumference.java" />
-        <option value="$PROJECT_DIR$/src/main/java/branching/NestedIfElse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/branching/SimpleIf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/branching/OddorEven.java" />
-        <option value="$PROJECT_DIR$/src/main/java/strings/RecordString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loop/Looping.java" />
-        <option value="$PROJECT_DIR$/src/main/java/branching/ElseIfLadder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/branching/SwitchCalc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loop/allbasicloop/ForLoop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loop/programsonloop/Patterns.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loop/programsonloop/PascalTriangle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loop/programsonloop/Fibonacci.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loop/allbasicloop/BreakContinue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/arrays/OneD.java" />
-        <option value="$PROJECT_DIR$/src/main/java/strings/Str1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/strings/Delete.java" />
         <option value="$PROJECT_DIR$/src/main/java/strings/StrRev.java" />
-        <option value="$PROJECT_DIR$/src/main/java/advanced/threading/CheckTimeJava8.java" />
         <option value="$PROJECT_DIR$/src/main/java/advanced/threading/ThreadSleepDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/collections/ArrayListDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/exception/ExceptionEg.java" />
-        <option value="$PROJECT_DIR$/src/main/java/buffer/ListEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/BasicConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/advanced/mongodb/ConnectDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/advanced/mongodb/CreateCollection.java" />
@@ -421,6 +306,26 @@
         <option value="$PROJECT_DIR$/src/main/java/oops/thisandsuper/ThisBasic.java" />
         <option value="$PROJECT_DIR$/src/main/java/oops/interfaces/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/oops/interfaces/TestInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/collections/list/ListImplementations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/collections/list/ArrayListDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/advanced/threading/CheckTimeJava8.java" />
+        <option value="$PROJECT_DIR$/src/main/java/advanced/lambdas/OneThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/advanced/lambdas/TwoList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/advanced/lambdas/Three.java" />
+        <option value="$PROJECT_DIR$/src/main/java/collections/list/filter/ListImplementations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/collections/list/lambdas/ModelData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/collections/list/lambdas/ListImplementations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/advanced/lambdas/lambdas/ListImplementations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/advanced/lambdas/filter/ListImplementations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strings/Str1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strings/Delete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oops/encapsulation/test/Model.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oops/encapsulation/test/AccessModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/advanced/lambdas/ThreeParallemStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/buffer/ListEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loop/programsonloop/CharCountInAscendingOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loop/programsonloop/WordCountAscendingOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loop/programsonloop/BiaryNo.java" />
       </list>
     </option>
   </component>
@@ -454,8 +359,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -487,7 +390,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oops" type="462c0819:PsiDirectoryNode" />
+              <item name="buffer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -495,8 +398,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oops" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractclass" type="462c0819:PsiDirectoryNode" />
+              <item name="loop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loop" type="462c0819:PsiDirectoryNode" />
+              <item name="programsonloop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="strings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -506,19 +425,27 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547180702724" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547652589858" />
     <property name="last_opened_file_path" value="G:/workspace/testing" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\javaDemo\src\main\java\collections\vector" />
+      <recent name="G:\javaDemo\src\main\java\collections\others" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -532,20 +459,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestInterface">
+  <component name="RunManager" selected="Application.BiaryNo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DerivedEgx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.overloading.overriding.DerivedEgx" />
+    <configuration name="BiaryNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop.programsonloop.BiaryNo" />
       <module name="javaDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.overloading.overriding.*" />
+          <option name="PATTERN" value="loop.programsonloop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -553,13 +480,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EgConst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.constructor.basicconstructor.EgConst" />
+    <configuration name="CharCountInAscendingOrder (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop.programsonloop.CharCountInAscendingOrder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loop.programsonloop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharCountInAscendingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop.programsonloop.CharCountInAscendingOrder" />
       <module name="javaDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.constructor.basicconstructor.*" />
+          <option name="PATTERN" value="loop.programsonloop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -581,27 +521,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.interfaces.TestInterface" />
+    <configuration name="ListEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="buffer.ListEx" />
       <module name="javaDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThisBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.thisandsuper.ThisBasic" />
-      <module name="javaDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oops.thisandsuper.*" />
+          <option name="PATTERN" value="buffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -623,13 +549,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VectorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.vector.VectorEx" />
+    <configuration name="WordCountAscendingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop.programsonloop.WordCountAscendingOrder" />
       <module name="javaDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.vector.*" />
+          <option name="PATTERN" value="loop.programsonloop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -669,19 +595,19 @@
     <list>
       <item itemvalue="Application.EgDef" />
       <item itemvalue="Application.UsingThreadClass" />
-      <item itemvalue="Application.VectorEx" />
-      <item itemvalue="Application.EgConst" />
-      <item itemvalue="Application.DerivedEgx" />
-      <item itemvalue="Application.ThisBasic" />
-      <item itemvalue="Application.TestInterface" />
+      <item itemvalue="Application.CharCountInAscendingOrder" />
+      <item itemvalue="Application.CharCountInAscendingOrder (1)" />
+      <item itemvalue="Application.ListEx" />
+      <item itemvalue="Application.WordCountAscendingOrder" />
+      <item itemvalue="Application.BiaryNo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestInterface" />
-        <item itemvalue="Application.ThisBasic" />
-        <item itemvalue="Application.DerivedEgx" />
-        <item itemvalue="Application.EgConst" />
-        <item itemvalue="Application.VectorEx" />
+        <item itemvalue="Application.BiaryNo" />
+        <item itemvalue="Application.WordCountAscendingOrder" />
+        <item itemvalue="Application.CharCountInAscendingOrder" />
+        <item itemvalue="Application.ListEx" />
+        <item itemvalue="Application.CharCountInAscendingOrder (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -696,13 +622,20 @@
       <option name="presentableId" value="Default" />
       <updated>1533650721847</updated>
     </task>
+    <task id="LOCAL-00001" summary="added buffer">
+      <created>1547207462892</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547207462892</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2791411" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33665645" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -711,7 +644,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32982457" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33684212" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33684212" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3982456" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -763,6 +696,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added buffer" />
+    <option name="LAST_COMMIT_MESSAGE" value="added buffer" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -797,8 +734,8 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/collections/ArrayListDemo.java</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/src/main/java/collections/list/ArrayListDemo.java</url>
+          <line>20</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -808,212 +745,52 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/advanced/lambdas/filter/ListImplementations.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/oops/encapsulation/test/Model.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/loop/programsonloop/BiaryNo.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/loop/programsonloop/BiaryNo.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/loop/programsonloop/BiaryNo.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/loop/programsonloop/BiaryNo.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/loop/programsonloop/BiaryNo.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/advanced/threading/MainThreadClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/advanced/threading/ThreadSleepDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/ListEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exception/ExceptionEg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/advanced/database/sql/BasicConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="7" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="139" column="17" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strings/Delete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loop/programsonloop/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/map/note_map.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="63" selection-start-column="63" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/map/HashMapCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/map/HashTableCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/map/LinkedHashMapCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/map/TreeMapCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/HashsetClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/LinkedHashSetClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/ArrayListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/ListArraylist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="81" column="18" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/TreeSetClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/DequeueCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/PriorityQueueCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/vector.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="55" selection-start-column="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collections/vector/VectorEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/advanced/database/sql/AddData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/advanced/database/mongodb/ConnectDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/advanced/database/mongodb/GetDocumentCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/advanced/database/mongodb/CreateCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oops/inheritance/hierarchial/TestHierarchialInheritance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oops/inheritance/hierarchial/DerivedOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1121,12 +898,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oops/interfaces/LocalAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="85">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1141,10 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="27" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="27" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1169,21 +938,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oops/thisandsuper/BaseClassEg.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/list.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/list/lambdas.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/oops/abstractclass/RateInterest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        <state relative-caret-position="170">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oops/abstractclass/RateInterest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/oops/ClassAndObj/Run.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oops/thisandsuper/BaseClassEg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/list/ArrayListDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/advanced/lambdas/Three.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/list/ListArraylist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/advanced/lambdas/filter/ListImplementations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/advanced/threading/CheckTimeJava8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/advanced/lambdas/filter/ModelData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/set/HashsetClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/set/LinkedHashSetClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strings/Delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strings/RecordString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/advanced/lambdas/ThreeParallemStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/advanced/lambdas/OneThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strings/Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strings/StrRev.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strings/Str1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oops/encapsulation/StudentDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oops/encapsulation/test/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oops/encapsulation/test/AccessModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/collections/set/TreeSetClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/advanced/lambdas/TwoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/buffer/ListEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loop/programsonloop/CharCountInAscendingOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="29" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loop/programsonloop/WordCountAscendingOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loop/programsonloop/BiaryNo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
     </entry>

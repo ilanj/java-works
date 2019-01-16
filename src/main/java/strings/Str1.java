@@ -30,7 +30,7 @@ public class Str1 {
         //contains
         boolean contains;
         String s="ila";
-        contains=name.contains(s);
+        contains=name.contains("ai");
         System.out.println(name+" contains "+s+ " returns "+contains);
 
         //lower and upper

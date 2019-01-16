@@ -10,6 +10,11 @@ public class CheckTimeJava8 {
     {
         System.out.println("starting now");
 
+        new Thread(()->{
+            System.out.println("hi");
+            System.out.println("hi");
+            System.out.println("hi");
+        }).start();
         new Thread(CheckTimeJava8::method1).start();
         new Thread(()->method2()).start();
         new Thread(()->method3()).start();

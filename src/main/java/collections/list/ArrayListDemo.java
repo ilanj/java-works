@@ -1,22 +1,14 @@
-package collections;
+package collections.list;
 
-import demo.Print;
+import advanced.lambdas.filter.ModelData;
 
 import java.util.*;
 
 public class ArrayListDemo {
     public static void main(String[] args) {
 
-        ArrayList<Integer> al=new ArrayList<>();
-        al.add(23);
+        ArrayList<ModelData> al=new ArrayList<>();
 
-        al.add(10);
-        al.add(58);
-        al.add(100);
-        al.add(58);
-        al.add(100);
-        al.add(98);
-        al.add(98);
 
 
         if(al.contains(100))

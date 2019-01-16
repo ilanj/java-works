@@ -1,12 +1,12 @@
-package collections;
+package collections.set;
 
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
-import java.util.TreeSet;
-//no duplication and ascending
-public class TreeSetClass {
+//LinkedHashSet-maintains insertion order unlike HashSet
+public class LinkedHashSetClass {
     public static void main(String[] args) {
-        TreeSet<Integer> h=new TreeSet<>();
+        LinkedHashSet<Integer> h=new LinkedHashSet<>();
 
         h.add(45);
         h.add(58);

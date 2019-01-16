@@ -1,4 +1,4 @@
-package collections;
+package collections.others;
 /*Priority queue does not have any ends.
 In a priority queue, elements can be inserted in any order but removal of the elements is in a sorted order.
 Due to this behavior, a priority queue can be used to sort the elements.

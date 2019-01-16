@@ -9,13 +9,9 @@ public class Delete {
 
         System.out.println("enter name");
         name=in.nextLine();
+        //regex-\\d-\\w
+        name=name.replaceAll("\\D","");
         System.out.println(name);
-
-        String words[]=name.split(" ");
-
-        for(String s:words)
-            System.out.println(s);
-
 
 
     }
