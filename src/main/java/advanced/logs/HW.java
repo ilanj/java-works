@@ -8,6 +8,7 @@ public class HW {
     public static void main(String[] args) {
         System.out.println("fefwef");
 
+
         log.info("my first log-");
         log.debug("debugging");
         log.error("error");

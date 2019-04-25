@@ -11,18 +11,20 @@ public class ExceptionEg extends Throwable {
         b=0;
         try
         {
-            c=a/b;
-            System.out.println(c);
+            System.out.println(a/b);
+            System.out.println("hhrrrai");
+            System.out.println("ryhryh");
+
+            System.out.println("rhrh");
+
+            System.out.println("hrh");
+
         }
-        catch(ClassCastException cl)
+        catch (ArrayIndexOutOfBoundsException e)
         {
-            cl.printStackTrace();
+            e.printStackTrace();
         }
-        catch(ClassFormatError cm)
-        {
-            cm.printStackTrace();
-        }
-        catch(ArithmeticException e)
+        catch (ArithmeticException e)
         {
             e.printStackTrace();
         }
@@ -31,7 +33,7 @@ public class ExceptionEg extends Throwable {
             e.printStackTrace();
         }
         finally {
-            System.out.println(" thus is finally");
+            System.out.println("i will aways execute");
         }
         //Thread.sleep(500);
 

@@ -17,7 +17,8 @@ public class ThreeParallemStream {
 //replace with parallel stream-threading will print elements arbitrarily
         nos.parallelStream().forEach(e->{
             //                Thread.sleep(2500);
-            System.out.println(e);
+            System.out.print(e+"\t");
+            System.out.println(Thread.currentThread().getName());
         });
     }
 }

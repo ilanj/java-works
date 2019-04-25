@@ -70,3 +70,7 @@
 2019-01-09 22:49:14,570 [main] INFO   org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:25}] to localhost:27017
 2019-01-09 22:49:14,580 [main] DEBUG  org.mongodb.driver.protocol.command - Sending command {find : BsonString{value='company_names'}} to advanced.database ila_practice on connection [connectionId{localValue:2, serverValue:25}] to server localhost:27017
 2019-01-09 22:49:14,585 [main] DEBUG  org.mongodb.driver.protocol.command - Command execution completed
+2019-02-01 09:31:35,637 [main] INFO   advanced.logs.HW - my first log-
+2019-02-01 09:31:35,663 [main] DEBUG  advanced.logs.HW - debugging
+2019-02-01 09:31:35,663 [main] ERROR  advanced.logs.HW - error
+2019-02-01 09:31:35,664 [main] WARN   advanced.logs.HW - this is a warning

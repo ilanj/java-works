@@ -6,4 +6,10 @@ public class BaseEgx {
         System.out.println("this is printed inside base class");
     }
 
+    void deqjnd()
+    {
+
+    }
+
+
 }

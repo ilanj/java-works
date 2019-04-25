@@ -10,13 +10,14 @@ public class OneThread {
          */
         new Thread(()->{
            for(int i=0;i<10;i++)
-               System.out.println(i*i*i);
+               System.out.print(i*i*i+"\t");
+               System.out.print(Thread.currentThread().getName());
         }).start();
 //        Thread.sleep(1);
         for(int i=0;i<10;i++)
         {
             if(i==5)
-                Thread.sleep(2500);
+//                Thread.sleep(2500);
             System.out.println("outside lambda"+i*i*i);
 
         }
