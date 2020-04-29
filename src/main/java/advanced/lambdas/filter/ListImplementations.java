@@ -24,8 +24,7 @@ public class ListImplementations {
         al.forEach(e-> System.out.println(e.id+"  "+e.name+"  "+e.location));
         ModelData search=al.stream().
                             filter(e->e.id.equals(12)).
-                            findFirst().
-                            get();
+                            findFirst().orElse(null);
 
 
         temp=al.parallelStream().

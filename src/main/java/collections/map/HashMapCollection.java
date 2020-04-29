@@ -28,6 +28,7 @@ public class HashMapCollection {
         }*/
 
         // java8-foreach
+h.keySet().stream().filter(ke->ke.equals("102"));
         h.forEach((k,v)-> System.out.println(k+"-->"+v));
 
 //        for(Map.Entry pair:h.entrySet())
