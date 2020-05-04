@@ -25,19 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="085a71fd-28a0-4ce3-8a2c-0671cd485a30" name="Default" comment="added buffer">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/list/NestedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/j8utils/ReadText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/j8utils/content.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advanced/lambdas/filter/RemoveInList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/advanced/lambdas/filter/ListImplementations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/advanced/lambdas/filter/ListImplementations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/HashMapCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/map/HashMapCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strings/regex/ExtractNos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strings/regex/ExtractNos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collections/map/HashMapCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/map/HashMapCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exception/ExceptionEg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exception/ExceptionEg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,18 +85,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="yml" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="yml.example2" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\javaDemo\src\main\java\collections\vector" />
       <recent name="G:\javaDemo\src\main\java\collections\others" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="advanced.lambdas.filter" />
+      <recent name="yml.example2" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="yml" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ReadText">
+  <component name="RunManager" selected="Application.RemoveInList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -135,20 +125,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="strings.regex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashMapCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.map.HashMapCollection" />
-      <module name="javaDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,6 +167,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="j8utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="advanced.lambdas.filter.RemoveInList" />
+      <module name="javaDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="advanced.lambdas.filter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,18 +237,18 @@
       <item itemvalue="Application.EgDef" />
       <item itemvalue="Application.UsingThreadClass" />
       <item itemvalue="Application.ExtractNos" />
-      <item itemvalue="Application.HashMapCollection" />
       <item itemvalue="Application.ListImplementations" />
       <item itemvalue="Application.NestedList" />
       <item itemvalue="Application.ReadText" />
+      <item itemvalue="Application.RemoveInList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveInList" />
         <item itemvalue="Application.ReadText" />
         <item itemvalue="Application.ExtractNos" />
         <item itemvalue="Application.NestedList" />
         <item itemvalue="Application.ListImplementations" />
-        <item itemvalue="Application.HashMapCollection" />
       </list>
     </recent_temporary>
   </component>
@@ -298,42 +288,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="added buffer" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="482" y="61" key="#xdebugger.evaluate" timestamp="1588137971697">
+    <state x="482" y="61" key="#xdebugger.evaluate" timestamp="1588604436853">
       <screen x="0" y="27" width="1366" height="700" />
     </state>
-    <state x="482" y="61" key="#xdebugger.evaluate/0.27.1366.700@0.27.1366.700" timestamp="1588137971697" />
-    <state width="1320" height="349" key="GridCell.Tab.0.bottom" timestamp="1588137989664">
+    <state x="482" y="61" key="#xdebugger.evaluate/0.27.1366.700@0.27.1366.700" timestamp="1588604436853" />
+    <state width="1320" height="349" key="GridCell.Tab.0.bottom" timestamp="1588604515828">
       <screen x="0" y="27" width="1366" height="700" />
     </state>
-    <state width="1320" height="349" key="GridCell.Tab.0.bottom/0.27.1366.700@0.27.1366.700" timestamp="1588137989664" />
-    <state width="1320" height="349" key="GridCell.Tab.0.center" timestamp="1588137989663">
+    <state width="1320" height="349" key="GridCell.Tab.0.bottom/0.27.1366.700@0.27.1366.700" timestamp="1588604515828" />
+    <state width="1320" height="349" key="GridCell.Tab.0.center" timestamp="1588604515827">
       <screen x="0" y="27" width="1366" height="700" />
     </state>
-    <state width="1320" height="349" key="GridCell.Tab.0.center/0.27.1366.700@0.27.1366.700" timestamp="1588137989663" />
-    <state width="1320" height="349" key="GridCell.Tab.0.left" timestamp="1588137989662">
+    <state width="1320" height="349" key="GridCell.Tab.0.center/0.27.1366.700@0.27.1366.700" timestamp="1588604515827" />
+    <state width="1320" height="349" key="GridCell.Tab.0.left" timestamp="1588604515827">
       <screen x="0" y="27" width="1366" height="700" />
     </state>
-    <state width="1320" height="349" key="GridCell.Tab.0.left/0.27.1366.700@0.27.1366.700" timestamp="1588137989662" />
-    <state width="1320" height="349" key="GridCell.Tab.0.right" timestamp="1588137989664">
+    <state width="1320" height="349" key="GridCell.Tab.0.left/0.27.1366.700@0.27.1366.700" timestamp="1588604515827" />
+    <state width="1320" height="349" key="GridCell.Tab.0.right" timestamp="1588604515827">
       <screen x="0" y="27" width="1366" height="700" />
     </state>
-    <state width="1320" height="349" key="GridCell.Tab.0.right/0.27.1366.700@0.27.1366.700" timestamp="1588137989664" />
-    <state width="1320" height="349" key="GridCell.Tab.1.bottom" timestamp="1588137862661">
+    <state width="1320" height="349" key="GridCell.Tab.0.right/0.27.1366.700@0.27.1366.700" timestamp="1588604515827" />
+    <state width="1320" height="349" key="GridCell.Tab.1.bottom" timestamp="1588604502829">
       <screen x="0" y="27" width="1366" height="700" />
     </state>
-    <state width="1320" height="349" key="GridCell.Tab.1.bottom/0.27.1366.700@0.27.1366.700" timestamp="1588137862661" />
-    <state width="1320" height="349" key="GridCell.Tab.1.center" timestamp="1588137862660">
+    <state width="1320" height="349" key="GridCell.Tab.1.bottom/0.27.1366.700@0.27.1366.700" timestamp="1588604502829" />
+    <state width="1320" height="349" key="GridCell.Tab.1.center" timestamp="1588604502828">
       <screen x="0" y="27" width="1366" height="700" />
     </state>
-    <state width="1320" height="349" key="GridCell.Tab.1.center/0.27.1366.700@0.27.1366.700" timestamp="1588137862660" />
-    <state width="1320" height="349" key="GridCell.Tab.1.left" timestamp="1588137862659">
+    <state width="1320" height="349" key="GridCell.Tab.1.center/0.27.1366.700@0.27.1366.700" timestamp="1588604502828" />
+    <state width="1320" height="349" key="GridCell.Tab.1.left" timestamp="1588604502827">
       <screen x="0" y="27" width="1366" height="700" />
     </state>
-    <state width="1320" height="349" key="GridCell.Tab.1.left/0.27.1366.700@0.27.1366.700" timestamp="1588137862659" />
-    <state width="1320" height="349" key="GridCell.Tab.1.right" timestamp="1588137862660">
+    <state width="1320" height="349" key="GridCell.Tab.1.left/0.27.1366.700@0.27.1366.700" timestamp="1588604502827" />
+    <state width="1320" height="349" key="GridCell.Tab.1.right" timestamp="1588604502828">
       <screen x="0" y="27" width="1366" height="700" />
     </state>
-    <state width="1320" height="349" key="GridCell.Tab.1.right/0.27.1366.700@0.27.1366.700" timestamp="1588137862660" />
+    <state width="1320" height="349" key="GridCell.Tab.1.right/0.27.1366.700@0.27.1366.700" timestamp="1588604502828" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -473,6 +463,14 @@
           <url>file://$PROJECT_DIR$/src/main/java/j8utils/ReadText.java</url>
           <line>32</line>
           <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/advanced/lambdas/filter/RemoveInList.java</url>
+          <line>25</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
