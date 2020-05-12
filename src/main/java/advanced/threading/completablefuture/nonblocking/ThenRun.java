@@ -10,9 +10,14 @@ public class ThenRun {
         System.out.println("inside future's supply async");
         return null;
     });
-
+    static CompletableFuture<Void> future1 = CompletableFuture.runAsync(()->{
+        System.out.println("inside future's supply async");
+    });
     public static void main(String[] args) {
         future.thenRun(()->{
+            System.out.println(" I am in than run");
+        });
+        future1.thenRun(()->{
             System.out.println(" I am in than run");
         });
     }
