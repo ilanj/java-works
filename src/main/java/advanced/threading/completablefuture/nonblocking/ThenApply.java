@@ -19,6 +19,6 @@ public class ThenApply {
         CompletableFuture<String> greet = getName.thenApply(returnValue->{
             return "Hello" + returnValue;
         });
-        System.out.println(greet.get());
+        System.out.println(greet);
     }
 }
