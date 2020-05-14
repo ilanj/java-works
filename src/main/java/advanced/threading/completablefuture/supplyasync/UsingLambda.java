@@ -1,3 +1,5 @@
+//get() method is blocking. It waits until the Future is completed and
+//returns the result
 package advanced.threading.completablefuture.supplyasync;
 
 import java.util.concurrent.CompletableFuture;
@@ -23,8 +25,9 @@ public class UsingLambda {
     System.out.println(future2);
 //        System.out.println(future1.isDone());
 //        System.out.println(future1.getNow("------"));
-//    System.out.println(future1.get());
-//    System.out.println(future2.get());
+// get() method is blocking waits until the Future is completed and returns the result
+    System.out.println(future1.get());
+    System.out.println(future2.get());
 
         System.out.println("called");
     }
