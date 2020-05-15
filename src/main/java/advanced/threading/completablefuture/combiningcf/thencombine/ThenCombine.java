@@ -1,4 +1,5 @@
-//thenCombine() is used when you want two Futures to run independently and do something after both are complete
+//thenCombine() is used when you want two Futures to run independently and do something
+// after both are complete
 package advanced.threading.completablefuture.combiningcf.thencombine;
 
 import java.util.concurrent.CompletableFuture;
