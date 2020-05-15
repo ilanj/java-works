@@ -1,6 +1,16 @@
-package june16;
+/*
+The Stack class extends Vector
+boolean empty() - Tests if this stack is empty. Returns true if the stack is empty,
+and returns false if the stack contains elements.
+Object peek( ) - (remeber lifo) Returns the element on the top of the stack, but does not remove it.
+Object pop( ) - Returns the element on the top of the stack, removing it in the process.
+Object push(Object element) - Pushes the element onto the stack. Element is also returned.
+int search(Object element) - Searches for element in the stack. If found, its
+ offset from the top of the stack is returned. Otherwise, -1 is returned.
+ */
+package collections.vector;
 import java.util.*;
-public class Stack16
+public class StackOps
 {
 	static Stack s1 = new Stack();
 	static Scanner in=new Scanner(System.in);
@@ -8,7 +18,6 @@ public class Stack16
 	static char ch;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Stack s1 = new Stack();
 		System.out.println("press 'q' to quit and any key to continue");
 		while((ch=in.next().charAt(0))!='q')
 		{

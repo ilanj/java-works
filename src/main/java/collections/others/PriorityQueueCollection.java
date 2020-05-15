@@ -3,7 +3,8 @@ package collections.others;
 In a priority queue, elements can be inserted in any order but removal of the elements is in a sorted order.
 Due to this behavior, a priority queue can be used to sort the elements.
 
-Since sorting is done only when the elements are removed from the priority queue, the PQ is easily implemented by a heap.
+Since sorting is done only when the elements are removed from the priority queue,
+the PQ is easily implemented by a heap.
 */
 //peekLast and pollLast arent supported
 import java.util.PriorityQueue;
@@ -25,7 +26,6 @@ public class PriorityQueueCollection {
         System.out.println(p.poll());////returns and remove head
         System.out.println(p);
 
-        System.out.println(p.peek());
         System.out.println(p);
 
     }
