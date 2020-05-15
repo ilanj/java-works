@@ -1,4 +1,7 @@
-//thenApply() method to process and transform the result of a CompletableFuture when it arrives
+/*The CompletableFuture.join() method is similar to the get method, but it throws
+ an unchecked exception in case the Future does not complete normally. This makes
+  it possible to use it as a method reference in the Stream.map() method.
+ */
 package advanced.threading.completablefuture.nonblocking;
 
 import java.util.UUID;
@@ -6,7 +9,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
-public class ThenApply {
+public class JoinEx {
    static CompletableFuture<String> getName = CompletableFuture.supplyAsync(()->{
        String exMethodCall = getText();
        try {
@@ -19,10 +22,10 @@ public class ThenApply {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         CompletableFuture<String> greet = getName.thenApply(returnValue->{
-            return "Hello" + returnValue;
+            return null;
         });
 //        System.out.println(greet);
-        System.out.println(greet.get());
+        System.out.println(greet.join());
     }
     static String getText(){
         return UUID.randomUUID().toString();
