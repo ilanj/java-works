@@ -1,4 +1,4 @@
-package june16;
+package programs;
 import java.util.Scanner;
 public class Recursion {
 	int n;// or declare this as static

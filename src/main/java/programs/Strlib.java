@@ -1,4 +1,4 @@
-package june16;
+package programs;
 import java.util.*;
 public class Strlib {
 	static int i=0;

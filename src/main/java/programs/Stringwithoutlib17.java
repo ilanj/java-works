@@ -1,4 +1,4 @@
-package june16;
+package programs;
 import java.util.Scanner;
 public class Stringwithoutlib17 {
 	public static void main(String args[])

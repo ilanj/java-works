@@ -1,8 +1,8 @@
-package june16;
+package collections.vector;
 
 import java.util.*;
 
-public class Demo {
+public class StackEmpty {
    static void showpush(Stack stack1, int a) {
       stack1.push(new Integer(a));
       System.out.println("push(" + a + ")");
